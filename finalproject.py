@@ -41,8 +41,7 @@ def average_size(content):
         total_size += len(word)
     print('Average size of each word: %.2f' % (total_size / len(content)))
 
-#fname = input('Enter file name: ')
-fname = 'SOP'
+fname = input('Enter file name: ')
 no_punctuation = ""
 try:
     fcontent = open(fname,'r').read()
