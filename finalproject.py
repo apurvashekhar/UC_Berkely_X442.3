@@ -20,7 +20,7 @@ def most_frequent_words(content):
         temp_list.append((count, word))
     temp_list = sorted(temp_list, reverse=True)
     print('Top five most frequently used words and count: ')
-    for count, word in temp_list[:100]:
+    for count, word in temp_list[:6]:
         print(word, count)
 
 #The longest word.
