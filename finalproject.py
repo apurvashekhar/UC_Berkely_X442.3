@@ -53,5 +53,5 @@ except IOError:
     quit()
 
 most_frequent_words(no_punctuation)
-#longest_word(no_punctuation)
-#average_size(no_punctuation)
+longest_word(no_punctuation)
+average_size(no_punctuation)
